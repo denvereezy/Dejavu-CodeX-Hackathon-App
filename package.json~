@@ -1,0 +1,23 @@
+{
+  "name": "Dejavu-CodeX-Hackathon-App",
+  "version": "0.0.0",
+  "description": "It is an educational game. Informing the use about the south african educational system and how important education is.",
+  "main": "colors.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pholisa-Fatyela/Dejavu-CodeX-Hackathon-App.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Pholisa-Fatyela/Dejavu-CodeX-Hackathon-App/issues"
+  },
+  "dependencies": {
+    "express": "^4.9.8",
+    "express-handlebars": "~2.0.1"
+}
+}
