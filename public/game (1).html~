@@ -4,18 +4,19 @@
 
 <style type="text/css">
 body{
-     background-image:url("./arcade84.jpg");
+     background-image:url("./game.png");
      background-repeat:no-repeat;
-     background-size:120%;
+     background-size:cover;
 }
 .bgclr {background-color: white; color: black; font-weight: bold;}
 
 #container{
-          height:900px;
+          height:800px;
           width:500px;
           border:5px solid black;
           border-radius: 25px;
-          background-color:#8A0A8A;
+          background-image:url("./wallpaper.jpg");
+          opacity:0.75;
           margin-left:auto;
           margin-right:auto;
           font-size:20px;
@@ -31,7 +32,6 @@ body{
 <div id="container">
 
 <form name="quiz">
-<h2>LEVEL 1</h2>
 1. What does NSC stand for?
 <ul style="margin-top: 1pt">
   <li><input class="radio" type="radio" name="q1" value="National Sience Council">National Sience Council</li>
@@ -66,16 +66,16 @@ body{
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">
-<a href="./game (2).html"><input type="button" value="Next level"></a>
-<a href="./index.html"><input type="button" value="Quit"></a>
 <p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong>
 </form>
+<a href="game(2).html"><button>Next Level</button></a>
+<a href="./index.html"><button>Quit</button></a>
 </div>
 <embed src="Commando_main_theme_by_ArcadeTunes.com.mp3" autostart="true" loop="true"
 width="2" height="0">
 </embed>
 <noembed>
-<bgsound src="Commando_main_theme_by_ArcadeTunes.com.mp3" autostart="true" loop="infinite">
+<bgsound src="Commando_main_theme_by_ArcadeTunes.com.mp3" loop="infinite">
 </noembed>
 
 <script language="JavaScript">
