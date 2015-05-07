@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+
+<style type="text/css">
+body{
+     background-image:url("./arcade84.jpg");
+     background-repeat:no-repeat;
+     background-size:120%;
+}
+.bgclr {background-color: white; color: black; font-weight: bold;}
+
+#container{
+          font-family: "Times New Roman", Times, serif;
+          height:1150px;
+          width:500px;
+          border:5px solid black;
+          border-radius: 25px;
+          background-color:#8A0A8A;
+          margin-left:auto;
+          margin-right:auto;
+          font-size:20px;
+       
+         
+}
+</style>
+
+
+
+</HEAD>
+<body>
+<div id="container">
+<h2>Fun Facts</h2>
+<p>An adding machine was a class of mechanical calculator, usually specialized for bookkeeping calculations. In the United States, the earliest adding machines were usually built to read in dollars and cents. </p>
+
+<p>Blaise Pascal and Wilhelm Schickard were the two original inventors of the mechanical calculator in 1642;[1].</p>
+<p>A prime number is a whole number greater than 1, whose only two whole-number factors are 1 and itself. The first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, and 29.</p>
+
+<p>Circumference is the linear distance around the edge of a closed curve or circular object.[1] The circumference of a circle is of special importance in geometry and trigonometry. Informally "circumference" may also refer to the edge itself rather than to the length of the edge</p>
+<p>Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and a long-lasting, practical electric light bulb.</p>
+<p>Guglielmo Marconi, an Italian inventor, proved the feasibility of radio communication. He sent and received his first radio signal in Italy in 1895. By 1899 he flashed the first wireless signal across the English Channel.</p>
+<p>The first laptop was invented in 1979 by British Designer Bill Moggridge. GRiD Systems Corporation helped improve his design. </p>
+<p> Pong was one of the first video games to reach mainstream popularity. The aim is to defeat an opponent in a simulated table-tennis game by earning a higher score. The game was originally manufactured by Atari Incorporated (Atari), which released it in 1972.</p>
+<p>Have you ever pondered over who invented the cell phone? Well, the inventor of the cell phone is named Martin Cooper and he is the man responsible for the generation and development of the very first cell phone.</p>
+<a href="./game (1).html"><input type="button" value="Skip"></a>
+</body>
+</html>

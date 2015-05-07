@@ -5,7 +5,7 @@
 <style>
 body{
     background-image:url("./game.png");
-    background-size:110%;
+    background-size:cover;
     background-repeat:no-repeat;	 
 }
 #container{
@@ -22,9 +22,10 @@ body{
      height:200px;
      width:900px;
      margin-left: auto;
+     color:red;
     
 }
-a{color: #ab0a0c;
+a{  color: #ab0a0c;
     font-family: Tahoma,sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -70,30 +71,21 @@ a{color: #ab0a0c;
 #about:hover {
     background-color: yellow;
 }
-#video{
-      margin-left: auto;
-      margin-right: auto;
-      height:300px;
-      width:900px;
-      
-}
 
 </style>
 </head>
 <body>
 <div id="box">
-<script src="http://h2.flashvortex.com/display.php?id=2_1430905207_55379_249_0_526_143_8_2_124" type="text/javascript"></script>
+<img src="./coollogo_com-191292244.png"></img>
+<h2>Think you have seen it?</h2>
+</div> 
 </div>
-<div id="video">
- <video width="900" height="300" autoplay loop>
-  <source src="Movie.mp4" type="video/mp4">
-</video> 
-</div>
+<br>
 <br>
 <div id="container">
-<a href="./game (1).html"><button id="test" onclick="myFunction()" >Start game</button></a>
+<a href="./facts.html"><button id="test" onclick="myFunction()" >Start game</button></a>
 <br>
-<a href="./game (1).html"><button id="help" onclick="myFunction2()">Help/Instruction</button></a>
+<a href="./help.html"><button id="help" onclick="myFunction2()">Help/Instruction</button></a>
 <br>
 <a href="./about.html"><button id="about" onclick="myFunction3()">About</button></a>
 
@@ -102,6 +94,8 @@ a{color: #ab0a0c;
 <div id="footer">
 Copyright © Dejavu
 </div>
-
+<script src="//code.jquery.com/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 </html>

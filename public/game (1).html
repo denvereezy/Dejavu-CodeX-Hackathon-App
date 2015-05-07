@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <HEAD>
-
+<title>Level 1</title>
 <style type="text/css">
 body{
      background-image:url("./arcade84.jpg");
@@ -11,6 +11,8 @@ body{
 .bgclr {background-color: white; color: black; font-weight: bold;}
 
 #container{
+          font-family: "Times New Roman", Times, serif;
+          font-size:20px;
           height:900px;
           width:500px;
           border:5px solid black;
@@ -32,37 +34,37 @@ body{
 
 <form name="quiz">
 <h2>LEVEL 1</h2>
-1. What does NSC stand for?
-<ul style="margin-top: 1pt">
-  <li><input class="radio" type="radio" name="q1" value="National Sience Council">National Sience Council</li>
-  <li><input class="radio" type="radio" name="q1" value="National Senior Certificate">National Senior Certificate</li>
-  <li><input class="radio" type="radio" name="q1" value="National Soccer Certificate">National Soccer Certificate</li>
-</ul>
+1. What is an adding machine?
 
-2. What does NCS stand for?
-<ul style="margin-top: 1pt">
-  <li><input type="radio" name="q2" value="National Curriculum Statement">National Curriculum Statement</li>
-  <li><input type="radio" name="q2" value="National Candidate Support">National Candidate Support</li>
-  <li><input type="radio" name="q2" value="New Curriculum Statement">New Curriculum Statement</li>
-</ul>
-3. NCS requires all learners in Grade - to - to take seven subjects.
-<ul style="margin-top: 1pt">
-  <li><input type="radio" name="q3" value="1 to 7">1 to 7</li>
-  <li><input type="radio" name="q3" value="0 to 3">0 to 3</li>
-  <li><input type="radio" name="q3" value="10 to 12">10 to 12</li>
-</ul>
-4. To obtain an NSC a candidate must, depending on the minimum requirements acheive either - or - in six subjects.
-<ul style="margin-top: 1pt">
-  <li><input type="radio" name="q4" value="39% or 29%">39% or 29%</li>
-  <li><input type="radio" name="q4" value="40% or 67.3%">40% or 67.3%</li>
-  <li><input type="radio" name="q4" value="40% or 30%">40% or 30%</li>
-</ul>
-5. How much time is needed for a learner to complete a three hundred mark exam paper?
-<ul style="margin-top: 1pt">
-  <li><input type="radio" name="q5" value="3 hours">3 hours</li>
-  <li><input type="radio" name="q5" value="6 hours">6 hours</li>
-  <li><input type="radio" name="q5" value="1.6 hours">1.6 hours</li>
-</ul>
+  <li><input class="radio" type="radio" name="q1" value="Cellphone">Cellphone</li>
+  <li><input class="radio" type="radio" name="q1" value="Mp3 player">Mp3 player</li>
+  <li><input class="radio" type="radio" name="q1" value="Calculator">Calculator</li><br>
+
+
+2. Who invented the adding machine?
+
+  <li><input type="radio" name="q2" value="Neil Armstrong">Neil Armstrong</li>
+  <li><input type="radio" name="q2" value="Blaise Pascal">Blaise Pascal</li>
+  <li><input type="radio" name="q2" value="Danny K">Danny K</li><br>
+
+3. What is a prime number?
+
+  <li><input type="radio" name="q3" value="whole number greater than 1">whole number greater than 1</li>
+  <li><input type="radio" name="q3" value="number less than 1">number less than 1</li>
+  <li><input type="radio" name="q3" value="10 to 12">none of the above</li><br>
+
+4. What is the next prime number after 7?
+
+  <li><input type="radio" name="q4" value="9">9</li>
+  <li><input type="radio" name="q4" value="11">11</li>
+  <li><input type="radio" name="q4" value="14">14</li><br>
+
+5. What is the term given to the perimeter around a circle?
+
+  <li><input type="radio" name="q5" value="radius">radius</li>
+  <li><input type="radio" name="q5" value="circumference">circumference</li>
+  <li><input type="radio" name="q5" value="center">center</li>
+
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">
@@ -91,29 +93,12 @@ var numChoi = 3;
 var answers = new Array(5);
 
 // Insert answers to questions
-answers[0] = "National Senior Certificate";
-answers[1] = "New Curriculum Statement";
-answers[2] = "10 to 12";
-answers[3] = "40% or 30%";
-answers[4] = "3 hours";
+answers[0] = "Calculator";
+answers[1] = "Blaise Pascal";
+answers[2] = "whole number greater than 1";
+answers[3] = "11";
+answers[4] = "circumference";
 
-document.forms[0].reset();
-
-var radioButtons = document.querySelectorAll(".radio");
-  for (var i = 0; i < radioButtons.length; i++) {
-        // add click handler
-        radioButtons[i].onclick = function() {
-            //alert("!!");
-           
-            getScore(document.forms[0]);
-          
-	    return true;
-	 	
-
-        };
-    }
-
-// Do not change anything below here ...
 function getScore(form) {
   var score = 0;
   var currElt;
@@ -137,9 +122,6 @@ function getScore(form) {
     correctAnswers += i + ". " + answers[i-1] + "\r\n";
   }
   form.solutions.value = correctAnswers;
-
-  
-
 }
 //  End -->
 </script>

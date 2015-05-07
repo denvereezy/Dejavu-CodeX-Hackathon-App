@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Help</title>
+</head>
+<style>
+h1 {
+ font-size: 40px;
+ font-family: Helvetica;
+ color: #369;
+text-align: center;
+}
+body {
+		background-image:url("./game.png");
+		background-size: cover;
+		overflow: auto;
+	}
+	.help {
+		padding: 100px;
+		border: 0.5px solid pink;
+		margin: 50px;
+		background: white;
+		opacity: 0.6;
+		text-align: center;
+		font-size: 30px;
+		color: #3D002E;
+		font-family:  Grande, sans-serif;
+	}
+</style>
+<body>
+<div class="help">
+<h1>INSTRUCTIONS</h1>
+<p>Think you are good in quizzes? 
+<br/>Lets put it to the test!
+.</p>
+<li>The object of the game is to answer all the quizard questions correctly.</li>
+<li>If a player answers the quizard questions correctly, well done to you.</li>
+<li>Once a player complete each level of the quizard question, the player advances to next level.</li>
+<li>incorrect answers puts the player to a fire stand "RESTART THE LEVEL".</li>
+</div>
+</body>
+</html>

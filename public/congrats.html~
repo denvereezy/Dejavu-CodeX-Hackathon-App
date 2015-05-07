@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<HEAD>
+
+<style type="text/css">
+body{
+     background-image:url("./giphy.gif");
+     background-repeat:no-repeat;
+     background-size:cover;
+    
+}
+.bgclr {background-color: white; color: black; font-weight: bold;}
+
+#container{
+          height:900px;
+          width:800px;
+          border:5px solid black;
+          border-radius: 25px;
+          background-color:#8A0A8A;
+          margin-left:auto;
+          margin-right:auto;
+          font-size:20px;       
+}
+img{
+   height:480px;
+   width:800px;
+}
+video{
+      height:300px;
+      width:700px;
+}
+
+</style>
+
+
+
+</HEAD>
+<body>
+<embed src="./Auditorium Applause-SoundBible.com-280911206.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+<noembed>
+<bgsound src="./Auditorium Applause-SoundBible.com-280911206.mp3" autostart="true" loop="infinite">
+</noembed>
+<div id="container">
+<img src="./congratulations.gif"></img>
+<video autoplay="true" loop="true">
+<source src="Movie.mp4" type="video/mp4">
+<source src="Movie.ogg" type="video/ogg">
+</video>
+<h3>Thank you for playing. We hopeyou play again!</h3>
+<a href="./index.html"><input type="button" value="Home"></a>
+</div>
+</body>
+</html>

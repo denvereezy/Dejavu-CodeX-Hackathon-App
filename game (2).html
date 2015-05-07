@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <HEAD>
-<title>Level 2</title>
+
 <style type="text/css">
 .bgclr {background-color: white; color: black; font-weight: bold;}
 body{
@@ -10,8 +10,7 @@ body{
      background-size:120%;
 }
 #container{
-          font-family: "Times New Roman",Times, serif;
-          height:680px;
+          height:980px;
           width:510px;
           border:5px solid black;
           border-radius: 25px;
@@ -39,11 +38,11 @@ var numChoi = 3;
 var answers = new Array(5);
 
 // Insert answers to questions
-answers[0] = "Carrot";
-answers[1] = "3";
-answers[2] = "C";
-answers[3] = "Growing older";
-answers[4] = "A Towel";
+answers[0] = "Gauteng";
+answers[1] = "Eastern Cape";
+answers[2] = "Gauteng";
+answers[3] = "Northern Cape";
+answers[4] = "Gauteng";
 
 // Do not change anything below here ...
 function getScore(form) {
@@ -78,37 +77,37 @@ function getScore(form) {
 <div id="container">
 <h2>LEVEL 2</h2>
 <form name="quiz">
-1. What sounds like a parrot but you can eat it?
+1. Which province in 2013 had the highest percentage of grade 1 learners achieving more than 50% in mathematics?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q1" value="Western Cape">Western Cape</li>
+  <li><input type="radio" name="q1" value="KwaZulu-Natal">KwaZulu-Natal</li>
+  <li><input type="radio" name="q1" value="Gauteng">Gauteng</li>
+</ul>
 
-  <li><input type="radio" name="q1" value="Carat">Carat</li>
-  <li><input type="radio" name="q1" value="Carrot">Carrot</li>
-  <li><input type="radio" name="q1" value="Karat">Karat</li>
-
-
-2. What number grows?
-
-  <li><input type="radio" name="q2" value="10">10</li>
-  <li><input type="radio" name="q2" value="3">3</li>
-  <li><input type="radio" name="q2" value="5">5</li>
-
-3. What letter is full of water?
-
-  <li><input type="radio" name="q3" value="C">C</li>
-  <li><input type="radio" name="q3" value="H">H</li>
-  <li><input type="radio" name="q3" value="O">O</li>
-
-4. What is it that everybody does at the same time?
-
-  <li><input type="radio" name="q4" value="Change">Change</li>
-  <li><input type="radio" name="q4" value="Eating">Eating</li>
-  <li><input type="radio" name="q4" value="Growing older">Growing older</li>
-
-5. What gets wet when drying? 
-
-  <li><input type="radio" name="q5" value="Clothes">Clothes</li>
-  <li><input type="radio" name="q5" value="A Towel">A Towel</li>
-  <li><input type="radio" name="q5" value="A Dryer">A Dryer</li>
-
+2. Which province in 2013 had the lowest percentage of grade 1 learners achieving more than 50% in mathematics?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q2" value="Limpopo">Limpopo</li>
+  <li><input type="radio" name="q2" value="Gauteng">Gauteng</li>
+  <li><input type="radio" name="q2" value="Northern Cape">Northern Cape</li>
+</ul>
+3. Which province in 2013 had the highest percentage of grade 4 learners achieving more than 50% in mathematics?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q3" value="Free State">Free State</li>
+  <li><input type="radio" name="q3" value="Gauteng">Gauteng</li>
+  <li><input type="radio" name="q3" value="Limpopo">Limpopo</li>
+</ul>
+4. Which province in 2013 had the second highest percentage of grade 4 learners achieving more than 50% in mathematics?
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q4" value="Eastern Cape">Eastern Cape</li>
+  <li><input type="radio" name="q4" value="Western Cape">Western Cape</li>
+  <li><input type="radio" name="q4" value="Northern Cape">Northern Cape</li>
+</ul>
+5. Which province in 2013 had the largest prototion of learners, educators and schools.
+<ul style="margin-top: 1pt">
+  <li><input type="radio" name="q5" value="KwaZulu-Natal">KwaZulu-Natal</li>
+  <li><input type="radio" name="q5" value="Western Cape">Western Cape</li>
+  <li><input type="radio" name="q5" value="Gauteng">Gauteng</li>
+</ul>
 
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">

@@ -95,7 +95,7 @@ function getScore(form) {
 
   <li><input type="radio" name="q3" value="C">C</li>
   <li><input type="radio" name="q3" value="H">H</li>
-  <li><input type="radio" name="q3" value="O">O</li>
+  <li><input type="radio" name="q30" value="O">O</li>
 
 4. What is it that everybody does at the same time?
 
