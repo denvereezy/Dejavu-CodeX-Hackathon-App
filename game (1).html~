@@ -23,6 +23,58 @@ body{
        
          
 }
+a#button {
+  position: absolute;
+  display: block;
+  text-align: center;
+  font: 2.5em/1em Arial, sans-serif;
+  color: #ffe5e5;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  background: #f00;
+  width: 100px;
+  height:100px;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
+  box-shadow: inset 0 -5px 20px rgba(0,0,0,0.5), inset 0 15px 20px rgba(255,255,255,0.5), 0 5px 10px rgba(0,0,0,0.75), 0 10px 10px rgba(0,0,0,0.5);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 78px 9px 0 0;
+  cursor: pointer;
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+a#button:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  z-index: -5;
+  width: 140px;
+  height: 140px;
+  top: 50%;
+  
+  left: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #f00;
+  top: -20px;
+  left: -20px;
+  -webkit-box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
+  box-shadow: inset 0 7px 15px rgba(255,255,255,0.5), inset 0 -7px 15px rgba(0,0,0,0.5);
+}
+
+a#button:active {
+  -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+  color: #ffeded;
+}
 </style>
 
 
@@ -67,11 +119,11 @@ body{
 <input type="button" value="Get score" onClick="getScore(this.form)">
 <input type="reset" value="Clear answers">
 <p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong>
-<a href="game(2).html"><button>Next Level</button></a>
-<a href="./index.html"><button>Quit</button></a>
 </form>
-</div>
 
+<a href="./index.html"><button>Quit</button></a>
+</div>
+<a id="button" href="game(2).html">Next level</a>
 
 <script language="JavaScript">
 

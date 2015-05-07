@@ -93,7 +93,7 @@ a{color: #ab0a0c;
 <div id="container">
 <a href="./game (1).html"><button id="test" onclick="myFunction()" >Start game</button></a>
 <br>
-<a href="./help.html"><button id="help" onclick="myFunction2()">Help/Instruction</button></a>
+<a href="./game (1).html"><button id="help" onclick="myFunction2()">Help/Instruction</button></a>
 <br>
 <a href="./about.html"><button id="about" onclick="myFunction3()">About</button></a>
 
